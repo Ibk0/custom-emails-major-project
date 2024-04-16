@@ -1,0 +1,9 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.edu-container {
+  margin: 20px;
+}

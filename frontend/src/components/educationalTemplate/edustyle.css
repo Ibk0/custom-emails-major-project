@@ -1,0 +1,119 @@
+/* EducationalComponent.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: black;
+}
+
+.edu-container {
+  max-width: 500px;
+  max-height: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+}
+
+.edu-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edu-header h1 {
+  color: #4a90e2;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.edu-course-image {
+  max-width: 400px;
+  max-height: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.edu-cta-button {
+  display: inline-block;
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 15px;
+  margin-left: 110px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.edu-sendemail-button {
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 15px;
+  margin-left: 130px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.edu-footer {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.edu-footer p {
+  color: #666666;
+}
+
+.edu-template {
+  color: black;
+}
+
+.email-template-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.email-template-container h2 {
+  color: black;
+}
+
+/* Forms */
+.form-label {
+  color: black;
+  margin-bottom: 5px;
+}
+
+.form-input,
+.form-textarea {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.textarea {
+  display: table-footer-group;
+}
